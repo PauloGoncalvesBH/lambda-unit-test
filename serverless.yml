@@ -1,0 +1,20 @@
+
+service: demonstracao-lambda-tester
+
+frameworkVersion: '>=2.3.0'
+
+provider:
+  name: aws
+  region: us-east-1
+  runtime: nodejs14.x
+
+functions:
+  handler:
+    handler: src/index.handler
+    events:
+      - httpApi:
+          path: /
+          method: get
+
+plugins:
+  - serverless-offline
