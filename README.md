@@ -23,7 +23,7 @@ Em seguida execute os testes (ler a seção [Testes](#testes) mais abaixo) e est
 
 ### **Dica de amigo**
 
-Todos os arquivos em _/src_ e _/tests_ possuem comentários no topo para auxiliar no entendimendo do código, mesmo que não possua familiaridade com função lambda não deixe de acessá-los e ler.
+Todos os arquivos em _/src_ e _/tests_ possuem comentários no topo para auxiliar no entendimento do código, mesmo que não possua familiaridade com função lambda não deixe de acessá-los e ler.
 
 Espero que te auxilie :D
 
