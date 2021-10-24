@@ -17,11 +17,15 @@ Uma alta cobertura de cenários de funções lambda (e consequentemente alta cob
 
 O exemplo principal é a demonstração da biblioteca [lambda-tester](https://www.npmjs.com/package/lambda-tester), que é utilizado nos arquivos que estão dentro do diretório [./tests/handler](./tests/handler).
 
-Recomendo você acessar o diretório [./src](./src), estudar os 2 arquivos presentes no mesmo e em seguida executar a aplicação localmente (ler a seção [Aplicação](#aplicacao) mais abaixo) para entender o comportamento da função lambda criada.
+Recomendo você acessar o diretório [./src](./src), estudar os 2 arquivos presentes no mesmo e em seguida executar a aplicação localmente (ler a seção [Aplicação](#aplicação) mais abaixo) para entender o comportamento da função lambda criada.
 
 Em seguida execute os testes (ler a seção [Testes](#testes) mais abaixo) e estude os testes implementados.
 
-**Dica de amigo:** Todos os arquivos em _/src_ e _/tests_ possuem comentários no topo para auxiliar no entendimendo do código, mesmo que não possua familiaridade com função lambda não deixe de acessá-los e ler. Espero que te auxilie :D 
+### **Dica de amigo**
+
+Todos os arquivos em _/src_ e _/tests_ possuem comentários no topo para auxiliar no entendimendo do código, mesmo que não possua familiaridade com função lambda não deixe de acessá-los e ler.
+
+Espero que te auxilie :D
 
 ## Pré-requisitos
 
