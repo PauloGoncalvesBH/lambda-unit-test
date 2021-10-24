@@ -7,7 +7,7 @@ const { handler } = require('../../src/index')
 //  com o erro sendo enviado para o 'catch' do arquivo src/index.js e retornando uma
 //  mensagem amigável para o usuário.
 
-// Não seria possível fazer essa mesma automação sem o pacote lambda-tester.
+// Não é possível fazer essa validação manualmente, podendo ser feito apenas unitariamente e com uso do pacote lambda-tester.
 
 jest.mock('../../src/authorization')
 
