@@ -1,6 +1,8 @@
 
 <div align="center">
   <h1>Teste unitário em aplicação Serverless</h1>
+  <b><i>Deixe uma star ⭐ no repositório, isso me incentiva a criar conteúdo de qualidade de software 100% gratuito</i></b>
+  <br>
   <h4><i>Esse repositório exemplifica como realizar teste unitário de aplicação Serverless de forma a validar o seu comportamento a partir dos eventos enviados e garantir que todos os componentes estão bem integrados.</i></h4>
 </div>
 <br>
