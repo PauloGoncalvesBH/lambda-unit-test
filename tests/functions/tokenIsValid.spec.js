@@ -4,9 +4,9 @@ const { tokenIsValid } = require('../../src/authorization')
 //  Essas validações são de certa forma simples, porém pegam todo o comportamento possível para
 //  esse método.
 
-// Embora com esse teste é possível ter certeza de como essa função lida com os dados enviados,
-//  não conseguimos saber se ele barraria de maneira correta as tentativas de acesso e permitiria
-//  apenas o que encaixa na regra dessa função.
+// Embora com esse teste é possível ter certeza de como esse método lida com o token enviado,
+//  não conseguimos saber se ele barraria as tentativas de acesso com token inválido na função lambda
+//  e se permitiria apenas o que encaixa na regra desse método.
 
 // É devido a essa incerteza do comportamento de todo o código integrado é que os testes
 //  no diretório /tests/handler fazem sentido
