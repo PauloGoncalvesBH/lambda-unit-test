@@ -3,9 +3,15 @@ const { tokenIsValid } = require('./authorization')
 // Essa pequena aplicação possui apenas a lógica de validar se o usuário enviou
 //  um token válido na query string ao chamar o evento.
 
-// Se o token for inválido o usuário receberá a informação que o acesso não foi autorizado (linhas 14 a 17).
-//  Tendo sucesso na autenticação receberá a informação que foi executado com sucesso (linhas 23 a 26).
-//  Qualquer falha que ocorrer na aplicação será levada ao 'catch', retornando mensagem do que ocorreu para o usuário (linhas 27 a 35).
+// Se o token for inválido o usuário receberá a informação que o acesso não foi autorizado (linhas 20 a 23).
+//  Tendo sucesso na autenticação receberá a informação que foi executado com sucesso (linhas 30 a 33).
+//  Qualquer falha que ocorrer na aplicação será levada ao 'catch', retornando mensagem do que erro ocorrido para o usuário (linhas 35 a 41).
+
+// Exemplos:
+//  1. Token inválido ou ausente, retornando mensagem 'Acesso não autorizado':
+//      1.1: http://localhost:3000/?token=INVALIDO
+//      1.2: http://localhost:3000
+//  2. Acesso autorizado, retornando mensagem 'Processamento realizado com sucesso': http://localhost:3000/?token=auth-password
 
 module.exports.handler = async (event, context, callback) => {
   try {
@@ -17,8 +23,9 @@ module.exports.handler = async (event, context, callback) => {
       }
     }
 
+    // (...)
     // Trecho de código que realizaria algum processamento de dados
-    // ...
+    // (...)
 
     return {
       statusCode: 200,
