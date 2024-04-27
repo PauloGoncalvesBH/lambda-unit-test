@@ -1,0 +1,19 @@
+{
+  "name": "exemplo-lambda-tester",
+  "version": "1.0.0",
+  "description": "Exemplo de testes em aplicação serverless utilizando lambda-tester",
+  "private": true,
+  "author": "Paulo Gonçalves (https://www.linkedin.com/in/paulo-goncalves/)",
+  "license": "GPL-3.0",
+  "scripts": {
+    "start": "serverless offline start --host 0.0.0.0",
+    "test": "jest --config tests/jest.config.js --colors"
+  },
+  "dependencies": {
+    "serverless-offline": "8.2.0"
+  },
+  "devDependencies": {
+    "jest": "27.2.4",
+    "lambda-tester": "4.0.1"
+  }
+}

@@ -1,0 +1,16 @@
+name: CI
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-18.04
+    steps:
+    - name: Project checkout
+      uses: actions/checkout@v2
+    - run: docker-compose build test
+    - name: Run tests
+      run: docker-compose up test
